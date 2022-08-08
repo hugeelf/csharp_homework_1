@@ -7,17 +7,18 @@
 1 -> нет
 */
 
-string IsItAHoliday (int dayOfWeek)
-{string answer="Хмм";
-    if(dayOfWeek<1 || dayOfWeek>7)
+string IsItAHoliday(int dayOfWeek)
+{
+    string answer = "Хмм";
+    if (dayOfWeek < 1 || dayOfWeek > 7)
     {
-        answer =  "В неделе всего 7 дней";
+        answer = "В неделе всего 7 дней";
     }
-    else if(dayOfWeek>5 && dayOfWeek<=7)
+    else if (dayOfWeek > 5 && dayOfWeek <= 7)
     {
         answer = "Этот день выходной";
     }
-    else if (dayOfWeek>0 && dayOfWeek<=5)
+    else if (dayOfWeek > 0 && dayOfWeek <= 5)
     {
         answer = "Этот день не выходной";
     }
