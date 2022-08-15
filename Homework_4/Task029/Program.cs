@@ -5,7 +5,7 @@
 
 */
 // Массив, заполненный рандомными числами от 0 до 999
-/*void RandomArray(int[] array, int arrayLength)
+void RandomArray(int[] array, int arrayLength)
 {   Console.Write("[ ");
     for (int i=0; i < arrayLength; i++)
     {
@@ -20,11 +20,11 @@ int arrayLength = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int[] array = new int[arrayLength];
 //int[] array =  {};
 RandomArray(array, arrayLength);
-*/
+
 
 //сами вносим значения в массив
 
-void ManualyAddElementsToArray(int[] array, int arraySize)
+/*void ManualyAddElementsToArray(int[] array, int arraySize)
 {
     for (int i = 0; i < arraySize; i++)
     {
@@ -43,3 +43,4 @@ Console.WriteLine("Введите размер массива");
 int arraySize = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int[] array = new int[arraySize];
 ManualyAddElementsToArray(array, arraySize);
+*/
