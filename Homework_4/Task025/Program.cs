@@ -7,11 +7,11 @@
 
 */
 
-double Exponentiation(double numA, double numB)
+int Exponentiation(int numA, int numB)
 {
-    // numA = Math.Pow(numA, numB); // возведение numA в степень numB
-    // return numA;
-    double number = numA;
+    //numA = Math.Pow(numA, numB); // возведение numA в степень numB
+    //return numA;
+    int number = numA;
 
     for (int i = 1; i < numB; i++)
     {
@@ -21,7 +21,7 @@ double Exponentiation(double numA, double numB)
 
 }
 Console.WriteLine("Введите число А");
-double numA = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+int numA = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 Console.WriteLine("Введите число B");
-double numB = Math.Abs(Convert.ToInt32(Console.ReadLine()));
+int numB = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 Console.WriteLine($"Число {numA} в степени {numB} = {Exponentiation(numA, numB)}");

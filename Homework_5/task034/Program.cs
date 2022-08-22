@@ -24,5 +24,5 @@ int CountingEven(int [] array)
     return result;
 }
 
-int [] array = GetArray(10, 100,1000);
+int [] array = GetArray(10, 100,999);
 Console.WriteLine($"Количество четных чисел в массиве = {CountingEven(array)}");

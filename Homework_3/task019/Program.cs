@@ -40,6 +40,7 @@ Console.WriteLine("Введите число,:");
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 int numberLength = getNumberLength(number);
 string isAPalindrome="";
+
 if(numberLength>=2)
 {
     isAPalindrome = IsItAPalindrome(number);
